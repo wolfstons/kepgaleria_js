@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+width: 200px;
+}
+.galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.kep{
+    border: 1px solid pink;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.hattalmaskep{
+    width: 5000px;
+}
