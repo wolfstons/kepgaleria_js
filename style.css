@@ -1,8 +1,10 @@
 *{
     box-sizing: border-box;
 }
-
-img{
+body{
+    background-color: rgb(145, 62, 62);
+}
+.galeria img{
 width: 200px;
 }
 .galeria{
@@ -19,5 +21,8 @@ width: 200px;
 
 }
 .hattalmaskep{
-    width: 5000px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: auto 1fr;
 }

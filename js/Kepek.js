@@ -7,7 +7,8 @@ export default class Kepek {
     this.szuloElem = szuloElem;
     this.fokep=fokep
     this.megjelenit()
-    this.nagykep()
+    this.esemeny()
+    this.nagykep(0)
   }
   megjelenit() {
     this.szuloElem.innerHTML = "";
@@ -19,8 +20,9 @@ export default class Kepek {
   esemeny(){
         window.addEventListener("kivalaszt",(event)=>{
             let index=event.detail
+            this.nagykep(index)
         })
-        this.nagykep()
+        
   }
 
   nagykep(index){
