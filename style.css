@@ -5,7 +5,7 @@ body{
     background-color: rgb(145, 62, 62);
 }
 .galeria img{
-width: 200px;
+width: 100px;
 }
 .galeria{
     display: grid;
@@ -25,4 +25,14 @@ width: 200px;
     justify-content: center;
     align-items: center;
     grid-template-rows: auto 1fr;
+}
+
+.hattalmaskep img{
+    width: 500px;
+    height: 350px;
+}   
+
+
+header{
+    display: flex;
 }
